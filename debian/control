@@ -1,0 +1,12 @@
+Source: ros-turbulent-py-trees-ros-tutorials
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), pyqt5-dev-tools, python3-pytest, python3-setuptools, qttools5-dev-tools, ros-turbulent-action-msgs, ros-turbulent-py-trees, ros-turbulent-py-trees-ros, ros-turbulent-rclpy, ros-turbulent-ros-workspace, python3-all, python3-setuptools
+Homepage: https://py-trees-ros-tutorials.readthedocs.io/en/release-2.0.x/
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-py-trees-ros-tutorials
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, pyqt5-dev, python3-pyqt5, python3-pyqt5.qtsvg, python3-sip-dev, ros-turbulent-action-msgs, ros-turbulent-geometry-msgs, ros-turbulent-launch, ros-turbulent-launch-ros, ros-turbulent-py-trees, ros-turbulent-py-trees-ros, ros-turbulent-py-trees-ros-interfaces, ros-turbulent-rcl-interfaces, ros-turbulent-rclpy, ros-turbulent-ros2launch, ros-turbulent-ros2param, ros-turbulent-ros2run, ros-turbulent-ros2service, ros-turbulent-ros2topic, ros-turbulent-sensor-msgs, ros-turbulent-std-msgs, ros-turbulent-ros-workspace
+Description: ROS2 extensions and behaviours for py_trees.
